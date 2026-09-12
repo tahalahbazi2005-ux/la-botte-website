@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Botte – Authentische tunesische Küche in Berlin</title>
+<meta name="description" content="La Botte in Berlin Wedding: authentische tunesische Küche, traditionelle Rezepte, herzliche Gastfreundschaft. Jetzt reservieren.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="page-loader" id="pageLoader"><span class="loader-mark">LB</span></div>
+
+<!-- ============ NAVIGATION ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="header-inner">
+    <a href="#top" class="logo">
+      <span class="logo-text">La Botte</span>
+      <svg class="logo-mark" viewBox="0 0 40 12" aria-hidden="true"><path d="M0 6 Q10 0 20 6 T40 6" stroke="currentColor" stroke-width="1.4" fill="none"/></svg>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#ueber-uns" data-nav>Über uns</a>
+      <a href="#speisekarte" data-nav>Speisekarte</a>
+      <a href="#galerie" data-nav>Galerie</a>
+      <a href="#reservierung" data-nav>Reservierung</a>
+      <a href="#kontakt" data-nav>Kontakt</a>
+    </nav>
+
+    <a href="#reservierung" class="btn btn-gold btn-nav">Jetzt reservieren</a>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Menü öffnen" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero" id="top">
+  <div class="hero-media">
+    <img src="https://images.unsplash.com/photo-1541518763669-27fef04b14ea?q=80&w=1800&auto=format&fit=crop" alt="Tunesisches Gericht mit Gewürzen und frischen Zutaten" class="hero-img" id="heroImg">
+    <div class="hero-overlay"></div>
+  </div>
+
+  <div class="hero-content">
+    <span class="hero-rule" aria-hidden="true"></span>
+    <p class="hero-kicker">Restaurant La Botte · Berlin</p>
+    <h1 class="hero-title">Authentische tunesische<br>Küche in Berlin</h1>
+    <p class="hero-text">Gewürze, Geschichten und Gerichte aus Tunis, Sfax und der sidischen Küste – von Hand zubereitet, wie zu Hause bei Sitt Om.</p>
+    <div class="hero-actions">
+      <a href="#reservierung" class="btn btn-gold">Jetzt reservieren</a>
+      <a href="#speisekarte" class="btn btn-ghost">Speisekarte ansehen</a>
+    </div>
+  </div>
+
+  <a href="#ueber-uns" class="scroll-cue" aria-label="Nach unten scrollen">
+    <span class="scroll-cue-line"></span>
+  </a>
+</section>
+
+<!-- ============ ÜBER UNS ============ -->
+<section class="section about" id="ueber-uns">
+  <div class="container about-grid">
+    <div class="about-media reveal" data-reveal>
+      <img src="https://images.unsplash.com/photo-1526318472351-c75fcf070305?q=80&w=1200&auto=format&fit=crop" alt="Traditionelles tunesisches Gericht wird serviert" loading="lazy">
+      <svg class="mosaic-accent" viewBox="0 0 120 120" aria-hidden="true">
+        <rect x="0" y="0" width="120" height="120" fill="url(#zelligePattern)"></rect>
+      </svg>
+    </div>
+
+    <div class="about-copy">
+      <p class="eyebrow-rule reveal" data-reveal>Unsere Geschichte</p>
+      <h2 class="reveal" data-reveal>Ein Stück Tunis, mitten in Berlin</h2>
+      <p class="reveal" data-reveal>La Botte wurde aus der Sehnsucht nach den Aromen der Heimat geboren. Was als kleine Familienküche begann, in der Rezepte über Generationen von Großmutter zu Enkelin weitergegeben wurden, ist heute ein Ort, an dem Berliner und Tunesier gemeinsam an einem Tisch sitzen.</p>
+      <p class="reveal" data-reveal>Wir kochen so, wie man in Tunesien für Gäste kocht: mit Geduld, scharfen Harissa-Noten, viel Olivenöl und Gewürzen, die wir selbst von Familien in Sfax und Kairouan beziehen. Jedes Gericht erzählt von einer Region – vom Kap Bon bis in die Sahara.</p>
+      <div class="about-stats">
+        <div><strong>2016</strong><span>Eröffnung in Berlin</span></div>
+        <div><strong>100%</strong><span>Hausgemachte Rezepte</span></div>
+        <div><strong>3.</strong><span>Generation Familienküche</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPEISEKARTE ============ -->
+<section class="section menu-section" id="speisekarte">
+  <div class="container">
+    <p class="eyebrow-rule reveal" data-reveal>Speisekarte</p>
+    <h2 class="section-title reveal" data-reveal>Was bei uns auf den Tisch kommt</h2>
+
+    <div class="menu-tabs reveal" data-reveal role="tablist" aria-label="Menükategorien">
+      <button class="menu-tab is-active" data-tab="vorspeisen" role="tab" aria-selected="true">Vorspeisen</button>
+      <button class="menu-tab" data-tab="hauptgerichte" role="tab" aria-selected="false">Hauptgerichte</button>
+      <button class="menu-tab" data-tab="desserts" role="tab" aria-selected="false">Desserts</button>
+      <button class="menu-tab" data-tab="getraenke" role="tab" aria-selected="false">Getränke</button>
+    </div>
+
+    <div class="menu-panels">
+      <ul class="menu-list is-active" data-panel="vorspeisen">
+        <li class="menu-item"><div class="menu-item-head"><span>Brik à l'œuf</span><span class="leader"></span><span class="price">6,50 €</span></div><p>Knuspriger Blätterteig, Ei, Thunfisch und Petersilie, frittiert</p></li>
+        <li class="menu-item"><div class="menu-item-head"><span>Salade Méchouia</span><span class="leader"></span><span class="price">5,90 €</span></div><p>Gegrillte Paprika, Tomaten und Knoblauch, mit Olivenöl und Ei</p></li>
+        <li class="menu-item"><div class="menu-item-head"><span>Harissa &amp; Oliven</span><span class="leader"></span><span class="price">4,50 €</span></div><p>Hausgemachte Harissa, marinierte Oliven, warmes Fladenbrot</p></li>
+        <li class="menu-item"><div class="menu-item-head"><span>Chorba Frik</span><span class="leader"></span><span class="price">6,00 €</span></div><p>Traditionelle Weizensuppe mit Lammfleisch und Kräutern</p></li>
+      </ul>
+
+      <ul class="menu-list" data-panel="hauptgerichte">
+        <li class="menu-item"><div class="menu-item-head"><span>Couscous Royal</span><span class="leader"></span><span class="price">17,90 €</span></div><p>Couscous mit Lamm, Merguez, Huhn und Gemüse der Saison</p></li>
+        <li class="menu-item"><div class="menu-item-head"><span>Tajine Malsouka</span><span class="leader"></span><span class="price">15,50 €</span></div><p>Gebackene Eierspeise mit Hühnchen, Kartoffeln und Kräutern</p></li>
+        <li class="menu-item"><div class="menu-item-head"><span>Mloukhia</span><span class="leader"></span><span class="price">14,90 €</span></div><p>Langsam geschmorter Rindereintopf mit Molokhia-Blättern</p></li>
+        <li class="menu-item"><div class="menu-item-head"><span>Grillplatte La Botte</span><span class="leader"></span><span class="price">19,50 €</span></div><p>Merguez, Lammspieße und Hähnchen vom Grill, Reis oder Fritten</p></li>
+      </ul>
+
+      <ul class="menu-list" data-panel="desserts">
+        <li class="menu-item"><div class="menu-item-head"><span>Makroudh</span><span class="leader"></span><span class="price">4,50 €</span></div><p>Griesgebäck mit Dattelfüllung, in Honig getränkt</p></li>
+        <li class="menu-item"><div class="menu-item-head"><span>Zrir</span><span class="leader"></span><span class="price">4,90 €</span></div><p>Süßes Sesam-Mandel-Dessert mit Gewürzen</p></li>
+        <li class="menu-item"><div class="menu-item-head"><span>Baklava tunesischer Art</span><span class="leader"></span><span class="price">5,20 €</span></div><p>Blätterteig, Pistazien, Orangenblütenhonig</p></li>
+      </ul>
+
+      <ul class="menu-list" data-panel="getraenke">
+        <li class="menu-item"><div class="menu-item-head"><span>Tunesischer Minztee</span><span class="leader"></span><span class="price">3,20 €</span></div><p>Grüner Tee mit frischer Minze und Pinienkernen</p></li>
+        <li class="menu-item"><div class="menu-item-head"><span>Bouza-Milchshake</span><span class="leader"></span><span class="price">4,50 €</span></div><p>Tunesischer Eisdrink mit Pistazien</p></li>
+        <li class="menu-item"><div class="menu-item-head"><span>Frischer Zitronensaft</span><span class="leader"></span><span class="price">3,80 €</span></div><p>Hausgepresst, leicht gezuckert</p></li>
+        <li class="menu-item"><div class="menu-item-head"><span>Boga-Limonade</span><span class="leader"></span><span class="price">3,50 €</span></div><p>Tunesische Kräuterlimonade</p></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GALERIE ============ -->
+<section class="section gallery-section" id="galerie">
+  <div class="container">
+    <p class="eyebrow-rule reveal" data-reveal>Galerie</p>
+    <h2 class="section-title reveal" data-reveal>Einblicke in unsere Küche</h2>
+  </div>
+
+  <div class="gallery-grid">
+    <button class="gallery-item reveal" data-reveal data-caption="Couscous Royal mit Lamm und Gemüse">
+      <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?q=80&w=900&auto=format&fit=crop" alt="Couscous Royal" loading="lazy">
+    </button>
+    <button class="gallery-item reveal" data-reveal data-caption="Unser Gastraum mit warmem Ambiente">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=900&auto=format&fit=crop" alt="Gastraum des Restaurants" loading="lazy">
+    </button>
+    <button class="gallery-item reveal" data-reveal data-caption="Frische Gewürze aus Sfax und Kairouan">
+      <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=900&auto=format&fit=crop" alt="Gewürze für tunesische Küche" loading="lazy">
+    </button>
+    <button class="gallery-item reveal" data-reveal data-caption="Grillplatte mit Merguez und Lammspießen">
+      <img src="https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=900&auto=format&fit=crop" alt="Grillplatte" loading="lazy">
+    </button>
+    <button class="gallery-item reveal" data-reveal data-caption="Frisch gebackenes Brik à l'œuf">
+      <img src="https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=900&auto=format&fit=crop" alt="Brik à l'œuf" loading="lazy">
+    </button>
+    <button class="gallery-item reveal" data-reveal data-caption="Süßes Gebäck zum Nachtisch">
+      <img src="https://images.unsplash.com/photo-1519676867240-f03562e64548?q=80&w=900&auto=format&fit=crop" alt="Tunesisches Gebäck" loading="lazy">
+    </button>
+  </div>
+</section>
+
+<!-- ============ RESERVIERUNG ============ -->
+<section class="section reservation" id="reservierung">
+  <div class="container reservation-grid">
+    <div class="reservation-info reveal" data-reveal>
+      <p class="eyebrow-rule">Reservierung</p>
+      <h2>Reservieren Sie Ihren Tisch</h2>
+      <p>Ob Familienfeier, Date-Night oder Geschäftsessen – wir richten Ihnen gerne einen Tisch her. Für Gruppen ab 8 Personen empfehlen wir eine telefonische Reservierung.</p>
+      <ul class="hours-list">
+        <li><span>Montag – Freitag</span><span>12:00 – 22:30</span></li>
+        <li><span>Samstag – Sonntag</span><span>13:00 – 23:00</span></li>
+      </ul>
+      <a href="tel:03097000830" class="phone-link">030 97000830</a>
+    </div>
+
+    <form class="reservation-form reveal" data-reveal id="reservationForm" novalidate>
+      <div class="form-row">
+        <label for="resName">Name</label>
+        <input type="text" id="resName" name="name" placeholder="Ihr vollständiger Name" required>
+        <span class="form-error" data-error-for="resName"></span>
+      </div>
+
+      <div class="form-row">
+        <label for="resPhone">Telefonnummer</label>
+        <input type="tel" id="resPhone" name="phone" placeholder="z. B. 030 1234567" required>
+        <span class="form-error" data-error-for="resPhone"></span>
+      </div>
+
+      <div class="form-row form-row-split">
+        <div>
+          <label for="resDate">Datum</label>
+          <input type="date" id="resDate" name="date" required>
+          <span class="form-error" data-error-for="resDate"></span>
+        </div>
+        <div>
+          <label for="resTime">Uhrzeit</label>
+          <input type="time" id="resTime" name="time" required>
+          <span class="form-error" data-error-for="resTime"></span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <label for="resGuests">Anzahl Personen</label>
+        <select id="resGuests" name="guests" required>
+          <option value="">Bitte wählen</option>
+          <option value="1">1 Person</option>
+          <option value="2">2 Personen</option>
+          <option value="3">3 Personen</option>
+          <option value="4">4 Personen</option>
+          <option value="5">5 Personen</option>
+          <option value="6">6 Personen</option>
+          <option value="7+">7 oder mehr</option>
+        </select>
+        <span class="form-error" data-error-for="resGuests"></span>
+      </div>
+
+      <button type="submit" class="btn btn-gold btn-full">Tisch anfragen</button>
+      <p class="form-success" id="formSuccess" role="status" aria-live="polite">Vielen Dank! Ihre Anfrage ist eingegangen – wir melden uns telefonisch zur Bestätigung.</p>
+    </form>
+  </div>
+</section>
+
+<!-- ============ KONTAKT ============ -->
+<section class="section contact" id="kontakt">
+  <div class="container contact-grid">
+    <div class="contact-info reveal" data-reveal>
+      <p class="eyebrow-rule">Kontakt</p>
+      <h2>Besuchen Sie uns</h2>
+      <ul class="contact-list">
+        <li>
+          <span class="contact-label">Adresse</span>
+          <span>Seestraße 57, 13347 Berlin</span>
+        </li>
+        <li>
+          <span class="contact-label">Telefon</span>
+          <a href="tel:03097000830">030 97000830</a>
+        </li>
+        <li>
+          <span class="contact-label">Öffnungszeiten</span>
+          <span>Mo–Fr 12–22:30 Uhr · Sa–So 13–23 Uhr</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact-map reveal" data-reveal>
+      <iframe
+        title="La Botte auf Google Maps"
+        src="https://maps.google.com/maps?q=Seestra%C3%9Fe%2057%2C%2013347%20Berlin&t=&z=15&ie=UTF8&iwloc=&output=embed"
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <span class="logo-text">La Botte</span>
+      <p>Authentische tunesische Küche im Herzen von Berlin.</p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Kontakt</h3>
+      <p>Seestraße 57<br>13347 Berlin</p>
+      <p><a href="tel:03097000830">030 97000830</a></p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Öffnungszeiten</h3>
+      <p>Mo–Fr: 12:00 – 22:30</p>
+      <p>Sa–So: 13:00 – 23:00</p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Folgen Sie uns</h3>
+      <div class="social-icons">
+        <a href="#" aria-label="La Botte auf Instagram">
+          <svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.8a4.2 4.2 0 1 1 0 8.4 4.2 4.2 0 0 1 0-8.4zm0 2a2.2 2.2 0 1 0 0 4.4 2.2 2.2 0 0 0 0-4.4zM17.4 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/></svg>
+        </a>
+        <a href="#" aria-label="La Botte auf Facebook">
+          <svg viewBox="0 0 24 24"><path d="M13.5 21v-7.6h2.6l.4-3H13.5V8.4c0-.87.24-1.46 1.5-1.46h1.6V4.28C16.3 4.19 15.32 4 14.18 4c-2.4 0-4.05 1.47-4.05 4.16v2.24H7.5v3h2.63V21h3.37z"/></svg>
+        </a>
+        <a href="#" aria-label="La Botte auf TikTok">
+          <svg viewBox="0 0 24 24"><path d="M15 3c.4 2 1.9 3.6 4 3.9V10c-1.5 0-2.9-.5-4-1.3v6.1a5.7 5.7 0 1 1-5.7-5.7c.2 0 .5 0 .7.1v3.1a2.6 2.6 0 1 0 1.8 2.5V3H15z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>&copy; <span id="year"></span> La Botte · Alle Rechte vorbehalten</p>
+  </div>
+</footer>
+
+<!-- ============ LIGHTBOX ============ -->
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Schließen">&times;</button>
+  <figure>
+    <img id="lightboxImg" src="" alt="">
+    <figcaption id="lightboxCaption"></figcaption>
+  </figure>
+</div>
+
+<!-- Hidden SVG pattern defs -->
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <pattern id="zelligePattern" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M10 0 L20 10 L10 20 L0 10 Z" fill="none" stroke="#C9A24B" stroke-width="1"/>
+      <circle cx="10" cy="10" r="3" fill="none" stroke="#C9A24B" stroke-width="1"/>
+    </pattern>
+  </defs>
+</svg>
+
+<script src="script.js"></script>
+</body>
+</html>
